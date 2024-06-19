@@ -1,0 +1,179 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+a {
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  .btn:hover,
+  .btn:focus,
+  .btn.focus {
+    color: #333;
+    text-decoration: none;
+  }
+  .btn:active,
+  .btn.active {
+    background-image: none;
+    outline: 0;
+  }
+  .btn.disabled,
+  .btn[disabled],
+  fieldset[disabled] .btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    opacity: .65;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active,
+.btn-info.active {
+  background-image: none;
+}
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    background-color: #2a3b91;
+    margin-top: 10px;
+}
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 4px;
+    }
+}
+
+.navbar li{
+	line-height:175%;
+}
+
+.navbar a {
+    display: block; /* Mengubah tampilan menjadi block untuk mengisi lebar penuh */
+    padding: 10px 20px;
+    margin: 5px 0; /* Menambahkan margin atas dan bawah */
+    background-color: #2a3b91;
+    color: white; /* Set text color to white */
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.navbar a:hover {
+    background-color: #1a2b81; /* Change background color to blue on hover */
+    
+}
+
+
+    
+
+
+.content {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    
+    margin: 20px;
+    animation: slideIn 1s;
+    box-shadow: none;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2a3b91;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-table {
+    width: 1306px;
+    height: 95vh; /* Mengatur tinggi tabel sesuai tinggi viewport */
+    margin: auto;
+    border-collapse: collapse; /* Menambahkan properti untuk menghapus garis pada tabel */
+    box-shadow: none;
+}
+
+* {
+    box-shadow: none !important;
+}
